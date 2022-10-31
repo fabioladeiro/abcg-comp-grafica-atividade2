@@ -17,7 +17,7 @@ Nesta foi utilizada a biblioteca ABCg para construção da inteface. A atividade
 
 ## Página web
 
-Essa atividade está disponível em uma página web com a aplicação rodando em WebAssembly:
+Essa atividade está disponível em uma página web com a aplicação rodando em WebAssembly: https://fabioladeiro.github.io/abcg-comp-grafica-atividade2/public/polygons.html
 
 ## Requerimentos
 
@@ -59,4 +59,4 @@ Execute `./build.sh`.
 
 1.  Execute `build-wasm.bat` (Windows) ou `./build-wasm.sh` (Linux/macOS).
 2.  Execute `runweb.bat` (Windows) or `./runweb.sh` (Linux/macOS) para executar o servidor web local.
-3.  Abra <>.
+3.  Abra <https://fabioladeiro.github.io/abcg-comp-grafica-atividade2/public/polygons.html>.
