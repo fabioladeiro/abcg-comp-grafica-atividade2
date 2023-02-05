@@ -1,2 +1,3 @@
 ---
-BasedOnStyle: LLVM
+# Use defaults from the Google style
+BasedOnStyle: Google

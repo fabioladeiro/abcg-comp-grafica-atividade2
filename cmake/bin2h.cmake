@@ -1,6 +1,7 @@
 # Adapted from https://github.com/sivachandran/cmake-bin2h by Harlen Batagelo
 #
-# Original license: sivachandran/cmake-bin2h is licensed under the MIT License
+# Original license:
+# sivachandran/cmake-bin2h is licensed under the MIT License
 #
 # Copyright 2020 Sivachandran Paramasivam
 #
@@ -113,7 +114,7 @@ function(BIN2H)
 
   # declares byte array and the length variables
   set(arrayDefinition
-      "static std::array<unsigned char, ${arraySize}> const ${BIN2H_VARIABLE_NAME}{ ${arrayValues} };"
+      "const std::array<unsigned char, ${arraySize}> ${BIN2H_VARIABLE_NAME}{ ${arrayValues} };"
   )
 
   set(declarations "${arrayDefinition}\n")

@@ -5,18 +5,20 @@
 # IntelliJ IDEA
 .idea
 *.iml
+.DS_Store
 
 # Visual Studio and VS Code
 .vs
 .vscode
-.devcontainer
 
 # Build directories
 build
-out
 cmake-build*
 
-# Conan imports for Dear ImGui
+# Doxygen documentation
+Dox
+
+# Conan imports for imgui
 bindings
 
 # CMake build configuration
@@ -28,5 +30,6 @@ public/*.data
 public/*.js
 public/*.wasm
 
-# Git
-*.stackdump
+!public/atividade2.data
+!public/atividade2.js
+!public/atividade2.wasm

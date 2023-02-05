@@ -1,6 +1,6 @@
 # Computação Gráfica - Atividade 2
 
-Esta atividade tem como objetivo manipular poligonos, com seu visualizador usando OpenGL. O código foi feito usando a biblioteca ABCg, com OpenGL.
+Esta atividade tem como objetivo manipular um triângulo e alterar suas propriedades de escala, translação, rotação e cor usando OpenGL. O código foi feito na biblioteca ABCg, com OpenGL, o menu e os botões de cada tabuleiro foram feitos com ImGui e as linhas e colunas foram feitos com Open graphics.
 
 Aluna: Fabiola Filgueira Deiró dos Santos
 
@@ -8,16 +8,17 @@ RA: 11201721084
 
 ## Explicação
 
-Nesta foi utilizada a biblioteca ABCg para construção da inteface. A atividade está contida na pasta `./examples/polygons`, e contém 4 arquivos principais:
+Nesta foi utilizada a biblioteca ABCg para construção da inteface. A atividade está contida na pasta `./examples/atividade2`, e contém 4 arquivos principais:
 
 - main.cpp
-- window.cpp
-- window.hpp
+- openglwindow.cpp
+- openglwindow.hpp
 - CMakeLists.txt
 
 ## Página web
 
-Essa atividade está disponível em uma página web com a aplicação rodando em WebAssembly: https://fabioladeiro.github.io/abcg-comp-grafica-atividade2/public/polygons.html
+Essa atividade está disponível em uma página web com a aplicação rodando em WebAssembly:
+https://fabioladeiro.github.io/abcg-comp-grafica-atividade2/public/atividade2.html
 
 ## Requerimentos
 
@@ -44,7 +45,7 @@ Para criar aplicações de desktop:
 Clonando o repositório:
 
     git clone https://github.com/fabioladeiro/abcg-comp-grafica-atividade2.git
-    cd abcg-comp-grafica-atividade2
+    cd abcg
 
 ### Windows
 
@@ -59,4 +60,4 @@ Execute `./build.sh`.
 
 1.  Execute `build-wasm.bat` (Windows) ou `./build-wasm.sh` (Linux/macOS).
 2.  Execute `runweb.bat` (Windows) or `./runweb.sh` (Linux/macOS) para executar o servidor web local.
-3.  Abra <https://fabioladeiro.github.io/abcg-comp-grafica-atividade2/public/polygons.html>.
+3.  Abra <>.
